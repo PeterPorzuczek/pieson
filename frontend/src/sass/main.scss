@@ -1,0 +1,26 @@
+@import "~normalize.css";
+
+@import "mixins";
+@import "variables";
+@import "fonts";
+
+@import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/css/font-awesome.css";
+// @import "~pace-js/themes/orange/pace-theme-corner-indicator.css";
+@import '~vue-kanban/src/assets/kanban.scss';
+
+@import "~ionicons/css/ionicons.css";
+@import "~material-design-icons-iconfont/dist/material-design-icons.css";
+@import "~awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.scss";
+@import "_icons-styles.scss";
+
+@import "base";
+@import "typography";
+@import "icons";
+@import "material-forms";
+
+@import "override-custom-libs";
+@import "override-bootstrap";
+@import "pace";
+
+@import "glyphicons";

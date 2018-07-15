@@ -1,0 +1,60 @@
+<template>
+  <div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <widget :headerText="$t('role.listTitle')">
+          <data-table :httpFetch="customFetch"
+                      :apiUrl="apiUrl"
+                      :tableFields="tableFields"
+                      :itemsPerPage="itemsPerPage"
+                      :sortFunctions="sortFunctions"
+                      :apiMode="apiMode"
+                      :paginationPath="paginationPath"></data-table>
+        </widget>
+      </div>
+    </div>
+
+  </div>
+</template>
+
+<script>
+  import Widget from '../../../vuestic-components/vuestic-widget/VuesticWidget'
+  import DataTable from '../../../vuestic-components/vuestic-datatable/VuesticDataTable'
+  import { http } from '../../../../services/http-commons'
+
+  export default {
+    components: {
+      DataTable,
+      Widget
+    },
+    name: 'List',
+    data () {
+      return {
+        apiUrl: this.$store.getters['role/list'],
+        apiMode: true,
+        tableFields: this.$store.getters['role/listTableFields'],
+        itemsPerPage: this.$store.getters['role/listItemsPerPage'],
+        sortFunctions: this.$store.getters['role/listSortFunctions'],
+        paginationPath: ''
+      }
+    },
+    methods: {
+      customFetch (apiUrl, httpOptions) {
+        return http.get(apiUrl, httpOptions)
+      }
+    }
+  }
+</script>
+
+<style lang="scss">
+
+  .color-icon-label-table {
+    td:first-child {
+      width: 1rem;
+    }
+  }
+  .filter {
+    opacity: 1;
+  }
+</style>

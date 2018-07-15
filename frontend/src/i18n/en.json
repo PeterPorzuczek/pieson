@@ -1,0 +1,124 @@
+{
+  "overview": {
+    "signIn": "Sign in here",
+    "signInNav": "Sign in",
+    "headingMain": "Our net. Intranet.",
+    "headingAdd": "Computers do not solve problems, they execute solutions.",
+    "infos": {
+      "1": {
+        "title": "Liutenant approved",
+        "message": "Code quality is a must. We make clean, battle-tested, modular code – with no messy dependencies. "
+      },
+      "2": {
+        "title": "Find your way",
+        "message": "Design unique interfaces by customizing theme. Modify colors, fonts and grid setting without opening any CSS file. "
+      },
+      "3": {
+        "title": "Start from templates",
+        "message": "Build with blocks, yet modify easily. Customization is one click away and the graphic possibilities are infinite. "
+      },
+      "4": {
+        "title": "Made for everyone",
+        "message": "Work on top of native HTML and SASS files. Extending, customizing and integrating JavaScript is a breeze. With no limits. "
+      }
+    },
+    "footer": "We ♥ new friends"
+  },
+  "error": {
+    "message": "Err, there is an error right here",
+    "back": "Go back",
+    "home": "Start over"
+  },
+  "auth": {
+    "agree": "I agree to",
+    "alreadyJoined": "Already joined?",
+    "createAccount": "Create account",
+    "createNewAccount": "Create account",
+    "username": "Username",
+    "email": "Email",
+    "login": "Login",
+    "alert": "Error",
+    "success": "Success",
+    "loginAlertMessage": "Bad password or username",
+    "loginSuccessMessage": "Successful login",
+    "password": "Password",
+    "signUp": "Sign Up",
+    "termsOfUse": "Terms of Use.",
+    "welcome": "Sign in"
+  },
+  "language": {
+    "english": "English"
+  },
+  "menu": {
+    "auth": "Auth",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "tasklist": "Tasks",
+    "tasklistAll": "Tasks all",
+    "taskAdd": "Add Tasks",
+    "login": "Login",
+    "signUp": "Sign up",
+    "error": "Error",
+    "user": "Manage Users",
+    "userlist": "User List",
+    "userAdd": "Add User",
+    "role": "Manage Roles",
+    "rolelist": "Role List"
+  },
+  "dashboard": {
+    "welcome": "Hello, ",
+    "welcomeMore": "I hope you are having a great day.",
+    "allTasks": "All tasks in system",
+    "tasks": "Your tasks in system"
+  },
+  "profile": {
+    "language": "Change Language",
+    "logout": "Logout",
+    "profile": "My Profile",
+    "text": "Good profile",
+    "save": "Save",
+    "saved": "Changes saved",
+    "error": "There was an error",
+    "inputs": {
+      "firstName": "Name",
+      "lastName": "Surname",
+      "password": "New password",
+      "oldPassword": "Old password",
+      "email": "email",
+      "emailValidatedSuccess": "Email (validated with success)",
+      "emailValidated": "Email (validated)"
+    }
+  },
+  "user": {
+    "listTitle": "Users",
+    "text": "Add new user",
+    "save": "Add",
+    "saved": "User added",
+    "error": "There was an error",
+    "inputs": {
+      "username": "Username",
+      "firstName": "Name",
+      "lastName": "Surname",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "email": "email",
+      "emailValidatedSuccess": "Email (validated with success)",
+      "emailValidated": "Email (validated)",
+      "role": "Choose role"
+    }
+  },
+  "task": {
+    "listTitle": "Tasks",
+    "text": "Add new task",
+    "save": "Add",
+    "saved": "Task added",
+    "error": "There was an error",
+    "inputs": {
+      "title": "title",
+      "description": "description"
+    }
+  },
+  "role": {
+    "listTitle": "Roles"
+  }
+}
